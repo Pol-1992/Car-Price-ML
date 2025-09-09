@@ -1,3 +1,16 @@
+import sys, subprocess
+
+# instalar dependencias en caliente
+subprocess.check_call([
+    sys.executable, "-m", "pip", "install",
+    "joblib>=1.3.2",
+    "scikit-learn>=1.3.2",
+    "pandas>=2.2.2",
+    "numpy>=1.26.4",
+    "pillow>=11.0.0"
+])
+
+
 import streamlit as st
 import pandas as pd
 from joblib import load
