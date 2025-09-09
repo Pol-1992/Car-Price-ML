@@ -82,4 +82,5 @@ Algunas posibles extensiones del proyecto:
 
 ## Autor
 
+
 **Pol Urbano Kinsel**  
